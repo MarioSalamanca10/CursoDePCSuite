@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Login</h1>
+    <form action="">
+        <div>
+            <!-- Nombre de usuario y contraseña -->
+        <label for="username">Escribe el nombre del usuario</label>
+        <input type="text" name="" id="username" required>
+
+        </div>
+        <div>
+            <label for="password">Escribe la contraseña: </label>
+            <input type="password" name="" id="password" required minlength="10">
+            <button type="button">Mostrar</button>
+        </div>
+        <div>
+            <label for="region"></label>
+            <select id="region">
+                <option value="Colombia">Colombia</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Brasil">Brasil</option>
+            </select>
+        </div>
+        <div>
+            <label for="message">Escribe un mensaje de bienvenida</label>
+            <textarea name="" id="textarea" rows="5" cols="10"></textarea>    
+        </div>
+        <!-- Boton de enviar -->
+         <button type="submit">Enviar</button>
+        
+    </form>
+    
+</body>
+</html>
