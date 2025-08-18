@@ -1,0 +1,21 @@
+/*  Sintaxis de CSS */
+body{
+    background-color: rgb(208, 233, 255);
+}
+.boton{
+    border-radius: 10%;
+    width: 150px;
+    height: 50px;
+}
+.btnPrincipal{
+    color: black;
+    border: none;
+    background-color: rgb(0, 0, 255);
+}
+.btnSecundario{
+    color: white;
+    border: none;
+    background-color: blue;
+}
+
+/* Especificidad */
