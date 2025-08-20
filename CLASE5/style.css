@@ -1,4 +1,7 @@
 /*  Sintaxis de CSS */
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 body{
     background-color: rgb(208, 233, 255);
 }
@@ -19,3 +22,21 @@ body{
 }
 
 /* Especificidad */
+.texto_generico{
+    color: blueviolet;
+}
+span{
+    color: red !important;
+    background-color: aqua;
+
+ }
+ .texto-test{
+    color: blue;
+ }
+ /* Suma de especificidades */
+ .caja span{
+    color: yellow;
+ }
+ #boton_especial{
+    color: green;
+ }
